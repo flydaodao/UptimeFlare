@@ -23,16 +23,14 @@ const workerConfig: WorkerConfig = {
     // ==========================================
     // 预留的 Tailscale 监控项 (请根据你的实际情况修改)
     // ==========================================
-    /* 
     {
       id: 'tailscale_monitor',
-      name: 'Tailscale Node (Funnel)',
+      name: 'mCloud',
       method: 'GET',
       // 将这里替换为你通过 Tailscale Funnel 暴露的公开域名
       target: 'https://nas.daodao.de5.net', 
       timeout: 10000,
     }
-    */
   ],
   
   notification: {
